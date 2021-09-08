@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
-/* FontSettings */
+@keyframes show{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 
 /* General Settings */
 
@@ -107,6 +114,54 @@ main a:hover {
     text-decoration: underline;
     text-decoration-skip-ink: none;
 }
+
+/* Accordion Menu */
+label {
+    margin-bottom: 1rem;
+    padding: .5rem 0 .5rem 1rem;
+    font-size: 2rem;
+    display: block;
+    color: white;
+    border-left: 6px solid skyblue;
+    background-color: darkblue;
+    cursor: pointer;
+}
+input {
+    display: none;
+}
+.accordion h2 {
+    position: relative;
+    left: -2rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.accordion ul * {
+    display: none;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#menuBar01:checked ~ #list01 li,
+#menuBar02:checked ~ #list02 li,
+#menuBar03:checked ~ #list03 li,
+#menuBar04:checked ~ #list04 li{
+    animation: show .5s linear 0s;
+    display: list-item;
+}
+
+#menuBar01:checked ~ #list01 *,
+#menuBar02:checked ~ #list02 *,
+#menuBar03:checked ~ #list03 *,
+#menuBar04:checked ~ #list04 *{
+    animation: show .5s linear 0s;
+    display: block;
+    height: fit-content;
+    opacity: 1;
+    margin: .5rem 0 1rem 0;
+}
+
 @media (min-width: 800px) {
     main {
         width: 68%;
