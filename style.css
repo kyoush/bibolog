@@ -146,7 +146,8 @@ input {
 #menuBar01:checked ~ #list01 li,
 #menuBar02:checked ~ #list02 li,
 #menuBar03:checked ~ #list03 li,
-#menuBar04:checked ~ #list04 li{
+#menuBar04:checked ~ #list04 li,
+#menuBar05:checked ~ #list05 li{
     animation: show .5s linear 0s;
     display: list-item;
 }
@@ -154,7 +155,8 @@ input {
 #menuBar01:checked ~ #list01 *,
 #menuBar02:checked ~ #list02 *,
 #menuBar03:checked ~ #list03 *,
-#menuBar04:checked ~ #list04 *{
+#menuBar04:checked ~ #list04 *,
+#menuBar05:checked ~ #list05 *{
     animation: show .5s linear 0s;
     display: block;
     height: fit-content;
