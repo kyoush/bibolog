@@ -121,9 +121,9 @@ label {
     padding: .5rem 0 .5rem 1rem;
     font-size: 2rem;
     display: block;
-    color: white;
+    color: orange;
     border-left: 6px solid skyblue;
-    background-color: darkblue;
+    background-color: black;
     cursor: pointer;
 }
 input {
