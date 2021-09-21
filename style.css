@@ -96,6 +96,7 @@ main h2 {
     text-underline-offset: -0.7rem;
 }
 main p{
+    color: white;
     margin: 0 1rem;
 }
 main ul {
