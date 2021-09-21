@@ -18,8 +18,8 @@ html {
 
 body {
     display: block;
-    background-color: black;
-    color: white;
+    background-color: midnightblue;
+    color: orange;
     width: 100%;
     height: 100%;
 }
@@ -42,8 +42,8 @@ header .siteTitle{
     padding: 1rem 0 1rem 0;
 }
 .nav {
-    color: white;
-    background-color: darkblue;
+    color: gold;
+    background-color: black;
     width: 100%;
     height: 3rem;
     text-align: center;
@@ -66,8 +66,8 @@ header .siteTitle{
 }
 
 .navItem:hover{
-    color: black;
-    background-color: aquamarine;
+    color: navy;
+    background-color: gold ;
 }
 
 /* Main */
@@ -83,7 +83,7 @@ main h1{
     font-size: 2rem;
     padding: .5rem 0 .5rem 1rem;
     border-left: 6px solid skyblue;
-    background-color: darkblue;
+    background-color: black;
     margin: 1rem;
     
 }
@@ -91,9 +91,9 @@ main h2 {
     font-size: 2rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
-    text-decoration: 1rem underline darkblue;
+    text-decoration: .7rem underline darkred;
     text-decoration-skip-ink: none;
-    text-underline-offset: -1rem;
+    text-underline-offset: -0.7rem;
 }
 main p{
     margin: 0 1rem;
@@ -108,7 +108,7 @@ main li {
     margin: .8rem auto;
 }
 main a {
-    color: skyblue;
+    color: orange;
 }
 main a:hover {
     text-decoration: underline;
