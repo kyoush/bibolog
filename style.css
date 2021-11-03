@@ -149,7 +149,9 @@ input {
 #menuBar03:checked ~ #list03 li,
 #menuBar04:checked ~ #list04 li,
 #menuBar05:checked ~ #list05 li,
-#menuBar06:checked ~ #list06 li{
+#menuBar06:checked ~ #list06 li,
+#menuBar07:checked ~ #list07 li,
+#menuBar08:checked ~ #list08 li{
     animation: show .5s linear 0s;
     display: list-item;
 }
@@ -159,7 +161,9 @@ input {
 #menuBar03:checked ~ #list03 *,
 #menuBar04:checked ~ #list04 *,
 #menuBar05:checked ~ #list05 *,
-#menuBar06:checked ~ #list06 *{
+#menuBar06:checked ~ #list06 *,
+#menuBar07:checked ~ #list07 *,
+#menuBar08:checked ~ #list08 *{
     animation: show .5s linear 0s;
     display: block;
     height: fit-content;
